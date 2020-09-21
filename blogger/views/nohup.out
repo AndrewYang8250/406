@@ -1,0 +1,19 @@
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+[0mGET / [36m304 [0m11.329 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.167 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.605 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.097 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.294 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.581 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.548 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.517 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.629 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.536 ms - -[0m
+[0mGET / [36m304 [0m2.014 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.512 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.510 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.634 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.527 ms - -[0m
