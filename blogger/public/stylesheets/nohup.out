@@ -1,0 +1,83 @@
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /home/bitnami/blogger/node_modules/bson/ext/index.js
+- /home/bitnami/blogger/node_modules/bson/lib/bson/index.js
+- /home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/utils.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/schema.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/index.js
+- /home/bitnami/blogger/node_modules/mongoose/index.js
+- /home/bitnami/blogger/app_server/models/db.js
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blogger/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/bitnami/blogger/node_modules/bson/ext/index.js',
+    '/home/bitnami/blogger/node_modules/bson/lib/bson/index.js',
+    '/home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/utils.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/schema.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/index.js',
+    '/home/bitnami/blogger/app_server/models/db.js',
+    '/home/bitnami/blogger/app.js',
+    '/home/bitnami/blogger/bin/www'
+  ]
+}
+js-bson: Failed to load c++ bson extension, using pure JS version
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /home/bitnami/blogger/node_modules/bson/ext/index.js
+- /home/bitnami/blogger/node_modules/bson/lib/bson/index.js
+- /home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/utils.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/schema.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/index.js
+- /home/bitnami/blogger/node_modules/mongoose/index.js
+- /home/bitnami/blogger/app_server/models/db.js
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blogger/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/bitnami/blogger/node_modules/bson/ext/index.js',
+    '/home/bitnami/blogger/node_modules/bson/lib/bson/index.js',
+    '/home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/utils.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/schema.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/index.js',
+    '/home/bitnami/blogger/app_server/models/db.js',
+    '/home/bitnami/blogger/app.js',
+    '/home/bitnami/blogger/bin/www'
+  ]
+}
+js-bson: Failed to load c++ bson extension, using pure JS version
+[0mGET / [32m200 [0m10.724 ms - 874[0m

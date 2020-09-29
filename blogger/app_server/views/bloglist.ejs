@@ -1,0 +1,27 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/stylesheets/fontawesome-all.css">  
+</head>
+  <body>
+     
+      <% include ./navMenu %>
+      <p></p>
+      <h1>Blog List</h1>
+      <p>
+	<% let blog = {}; %>
+<% if (blogs.length == 0) { %>
+<p> No blogs to display </p>
+<% } else {
+                for(let i = 0; i < blogs.length; i++) {
+                        blog = blogs[i] %>
+<% include ./blogtasks %>
+<% } %>
+<% } %>
+  </body>	
+</html>
+
+

