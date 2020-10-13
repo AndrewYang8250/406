@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delete Blog</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/fontawesome-all.css" />
+  </head>
+  <body>
+      <div class="container">
+	  <% include ./navMenu %>
+      	  <div class="card" style="width: 50%">
+		<form method="post" action="" style="padding: 20px">
+		<div class="form-group">
+			<label for="summary" class="text-primary">Blog Title</label>
+			<input readonly class="form-control" id="blogTitle" name="blogTitle" value="<%=blog.blogTitle%>"></textarea>
+			<label for="detail" class="text-primary">Blog Text</label>
+			<textarea readonly class="form-control" id="blogText" name="blogText" rows="3"><%=blog.blogText%></textarea>
+		</div>
+		<input type="submit" class="btn btn-danger float-right" value="Delete Blog">
+		<a class="btn btn-primary float-right" style="margin-right: 25px" href="/blogList" role="button">Cancel</a>
+	   </form>
+	   </div>
+      </div>
+  </body>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/bootstrap.min.js"><script>
+</html>
+
