@@ -1,0 +1,22 @@
+<div class="card border-primary" style="width: 50%">
+    <div class="card-body">
+        <h5 class ="card-title"><%=blog.title%></h5>
+        <p class="card-text"><%=blog.text%></p>
+	<span>Date created: <%=blog.createdOn%></span>
+    </div>
+    <div class="card-footer">
+        <div class = "row">
+	     <div class = "col-sm">
+                <ul class="nav justify-content-end nav-pills card-header-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blogEdit/<%=blog._id%>"><i class="fas fa-edit" style="font-size:24px;"></i></a>
+                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blogDelete/<%=blog._id%>"><i class="fas fa-trash-alt" style="font-size:24px;"></i></a>
+                    </li>
+                </ul>
+            </div>  
+        </div>
+    </div>
+</div>
+<p> <!-- card -->
