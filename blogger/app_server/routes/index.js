@@ -3,8 +3,7 @@ var router = express.Router();
 var ctrlHome = require('../controllers/home');
 var ctrlBlog = require('../controllers/blog');
 
-/* Setup routes to pages. */
-router.get('/', ctrlHome.home);
+router.get('/', ctrlHome.index);
 router.get('/blogList', ctrlBlog.blogList);
 router.get('/blogAdd', ctrlBlog.blogAdd);
 router.get('/blogEdit/:blogid', ctrlBlog.blogEdit);
