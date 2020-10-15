@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/stylesheets/fontawesome-all.css">
   </head>
   <body>
-    <% include ./navMenu %>
+    <% include ./partials/nav %>
     <h1><%= title %></h1>
     <div>
 	    <% let blog = {}; %>
@@ -16,7 +16,7 @@
 	    <% } else {
 	    	for(let i = 0; i < blogs.length; i++) {
 			blog = blogs[i] %>
-			<% include ./blogTasks %>
+			<% include ./partials/showBlog %>
 	      <% } %>
 	    <% } %>
     </div>
