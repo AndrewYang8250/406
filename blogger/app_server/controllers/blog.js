@@ -1,6 +1,6 @@
 var request = require('request');
 var apiOptions = {
-	server : "http://3.237.172.53:80"
+	server : "http://3.228.4.25:80"
 };
 
 
