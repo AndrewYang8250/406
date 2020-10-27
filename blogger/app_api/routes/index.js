@@ -10,3 +10,4 @@ router.put('/blogs/:blogid', ctrlBlog.blogUpdateOne);
 router.delete('/blogs/:blogid', ctrlBlog.blogDeleteOne);
 
 module.exports = router;
+

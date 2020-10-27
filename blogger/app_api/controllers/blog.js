@@ -6,7 +6,6 @@ var sendJSONResponse = function(res, status, content) {
 	res.json(content);
 };
 
-
 var buildBlogList = function(req, res, results){
 	var blogs = [];
 	results.forEach(function(obj){
@@ -62,7 +61,6 @@ module.exports.blogReadOne = function (req, res) {
 	}
 };
 
-
 module.exports.blogList = function (req, res) {
 	console.log('Getting list of blogs.');
 	Blog.find().exec(function(err, results) {
@@ -80,7 +78,6 @@ module.exports.blogList = function (req, res) {
 		sendJSONResponse(res, 200, buildBlogList(req, res, results));
 	});
 };
-
 
 module.exports.blogUpdateOne = function (req, res) {
 	console.log("Updating a blog entry with id of " + req.params.blogid);
