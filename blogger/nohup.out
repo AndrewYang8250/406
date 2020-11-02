@@ -1,0 +1,217 @@
+
+> blogger@0.0.0 start /home/bitnami/lab6/406/blogger
+> node ./bin/www
+
+(node:23952) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:23952) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogs:blogs@localhost/blogs
+[0mGET /favicon.ico [36m304 [0m3.384 ms - -[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f9783ca7669ad6265a6851e,
+    title: 'Test Blog',
+    text: 'Finally got this to work - edit - edit2 - edit3\n',
+    __v: 0
+  },
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f97841a7669ad6265a68522,
+    title: 'Edit test',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 2:33:38 PM',
+    _id: 5fa05f5150fd7d5c671cd895,
+    title: 'testblog lab6',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 3:10:36 PM',
+    _id: 5fa067dd03dc335d7718a6a6,
+    title: 'delete test',
+    text: 'to test delete',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m20.404 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.528 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.530 ms - -[0m
+[0mPOST /api/login [32m200 [0m26.315 ms - 257[0m
+[0mGET /favicon.ico [36m304 [0m0.723 ms - -[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f9783ca7669ad6265a6851e,
+    title: 'Test Blog',
+    text: 'Finally got this to work - edit - edit2 - edit3\n',
+    __v: 0
+  },
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f97841a7669ad6265a68522,
+    title: 'Edit test',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 2:33:38 PM',
+    _id: 5fa05f5150fd7d5c671cd895,
+    title: 'testblog lab6',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 3:10:36 PM',
+    _id: 5fa067dd03dc335d7718a6a6,
+    title: 'delete test',
+    text: 'to test delete',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m4.337 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m1.671 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.605 ms - -[0m
+{ title: 'asdfsadf', text: 'adsfsadf' }
+{
+  createdOn: '11/2/2020, 3:12:56 PM',
+  _id: 5fa0685a430cf15d9088312f,
+  title: 'asdfsadf',
+  text: 'adsfsadf',
+  __v: 0
+}
+[0mPOST /api/blogs/ [32m201 [0m14.337 ms - 115[0m
+Getting list of blogs.
+[0mGET /favicon.ico [36m304 [0m1.965 ms - -[0m
+[
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f9783ca7669ad6265a6851e,
+    title: 'Test Blog',
+    text: 'Finally got this to work - edit - edit2 - edit3\n',
+    __v: 0
+  },
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f97841a7669ad6265a68522,
+    title: 'Edit test',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 2:33:38 PM',
+    _id: 5fa05f5150fd7d5c671cd895,
+    title: 'testblog lab6',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 3:10:36 PM',
+    _id: 5fa067dd03dc335d7718a6a6,
+    title: 'delete test',
+    text: 'to test delete',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 3:12:56 PM',
+    _id: 5fa0685a430cf15d9088312f,
+    title: 'asdfsadf',
+    text: 'adsfsadf',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m4.024 ms - 594[0m
+Finding blog id details { blogid: '5fa0685a430cf15d9088312f' }
+[0mGET /api/blogs/5fa0685a430cf15d9088312f [32m200 [0m3.293 ms - 115[0m
+[0mGET /favicon.ico [36m304 [0m0.560 ms - -[0m
+Finding blog id details { blogid: '5fa0685a430cf15d9088312f' }
+[0mGET /api/blogs/5fa0685a430cf15d9088312f [36m304 [0m2.173 ms - -[0m
+Finding blog id details { blogid: '5fa0685a430cf15d9088312f' }
+[0mGET /api/blogs/5fa0685a430cf15d9088312f [36m304 [0m2.174 ms - -[0m
+Deleting blog entry with id of 5fa0685a430cf15d9088312f
+{}
+[0mDELETE /api/blogs/5fa0685a430cf15d9088312f [32m204 [0m6.039 ms - -[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f9783ca7669ad6265a6851e,
+    title: 'Test Blog',
+    text: 'Finally got this to work - edit - edit2 - edit3\n',
+    __v: 0
+  },
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f97841a7669ad6265a68522,
+    title: 'Edit test',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 2:33:38 PM',
+    _id: 5fa05f5150fd7d5c671cd895,
+    title: 'testblog lab6',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 3:10:36 PM',
+    _id: 5fa067dd03dc335d7718a6a6,
+    title: 'delete test',
+    text: 'to test delete',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m2.994 ms - 486[0m
+[0mGET /favicon.ico [36m304 [0m0.565 ms - -[0m
+Finding blog id details { blogid: '5f9783ca7669ad6265a6851e' }
+[0mGET /api/blogs/5f9783ca7669ad6265a6851e [32m200 [0m3.613 ms - 159[0m
+[0mGET /favicon.ico [36m304 [0m0.513 ms - -[0m
+Finding blog id details { blogid: '5f9783ca7669ad6265a6851e' }
+[0mGET /api/blogs/5f9783ca7669ad6265a6851e [36m304 [0m2.087 ms - -[0m
+Updating a blog entry with id of 5f9783ca7669ad6265a6851e
+{
+  createdOn: '10/26/2020, 10:19:27 PM',
+  _id: '5f9783ca7669ad6265a6851e',
+  title: 'Test Blog',
+  text: 'Finally got this to work - edit - edit2 - edit3 - edit4\n\n',
+  __v: 0
+}
+[0mPUT /api/blogs/5f9783ca7669ad6265a6851e [32m201 [0m5.626 ms - 159[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f9783ca7669ad6265a6851e,
+    title: 'Test Blog',
+    text: 'Finally got this to work - edit - edit2 - edit3 - edit4\n\n',
+    __v: 0
+  },
+  {
+    createdOn: '10/26/2020, 10:19:27 PM',
+    _id: 5f97841a7669ad6265a68522,
+    title: 'Edit test',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 2:33:38 PM',
+    _id: 5fa05f5150fd7d5c671cd895,
+    title: 'testblog lab6',
+    text: 'asdf',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 3:10:36 PM',
+    _id: 5fa067dd03dc335d7718a6a6,
+    title: 'delete test',
+    text: 'to test delete',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [32m200 [0m3.109 ms - 496[0m
+[0mGET /favicon.ico [36m304 [0m0.564 ms - -[0m

@@ -29,3 +29,4 @@ process.on('SIGINT', function() {
 			  	  }); });
 
 require('./blogs');
+require('./users');

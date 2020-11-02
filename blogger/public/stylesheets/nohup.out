@@ -1,0 +1,359 @@
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /home/bitnami/blogger/node_modules/bson/ext/index.js
+- /home/bitnami/blogger/node_modules/bson/lib/bson/index.js
+- /home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/utils.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/schema.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/index.js
+- /home/bitnami/blogger/node_modules/mongoose/index.js
+- /home/bitnami/blogger/app_server/models/db.js
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blogger/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/bitnami/blogger/node_modules/bson/ext/index.js',
+    '/home/bitnami/blogger/node_modules/bson/lib/bson/index.js',
+    '/home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/utils.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/schema.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/index.js',
+    '/home/bitnami/blogger/app_server/models/db.js',
+    '/home/bitnami/blogger/app.js',
+    '/home/bitnami/blogger/bin/www'
+  ]
+}
+js-bson: Failed to load c++ bson extension, using pure JS version
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /home/bitnami/blogger/node_modules/bson/ext/index.js
+- /home/bitnami/blogger/node_modules/bson/lib/bson/index.js
+- /home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/utils.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/schema.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/index.js
+- /home/bitnami/blogger/node_modules/mongoose/index.js
+- /home/bitnami/blogger/app_server/models/db.js
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blogger/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/bitnami/blogger/node_modules/bson/ext/index.js',
+    '/home/bitnami/blogger/node_modules/bson/lib/bson/index.js',
+    '/home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/utils.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/schema.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/index.js',
+    '/home/bitnami/blogger/app_server/models/db.js',
+    '/home/bitnami/blogger/app.js',
+    '/home/bitnami/blogger/bin/www'
+  ]
+}
+js-bson: Failed to load c++ bson extension, using pure JS version
+[0mGET / [32m200 [0m10.724 ms - 874[0m
+[0mGET / [36m304 [0m1.756 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.474 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.615 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.165 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.337 ms - -[0m
+[0mGET /bloglist [36m304 [0m3.293 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.525 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.587 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m1.472 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m2.832 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m1.329 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.018 ms - 1466[0m
+[0mGET / [36m304 [0m1.145 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.437 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.522 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.835 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.507 ms - -[0m
+[0mGET / [32m200 [0m2.307 ms - 874[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.910 ms - 226[0m
+[0mGET /js/bootstrap.min.js [32m200 [0m2.232 ms - 60044[0m
+[0mGET / [32m200 [0m1.057 ms - 874[0m
+[0mGET /js/jquery.min.js [32m200 [0m4.885 ms - 89476[0m
+[0mGET /css/bootstrap.min.css [32m200 [0m1.952 ms - 160302[0m
+[0mGET /bloglist [32m200 [0m1.629 ms - 2516[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.489 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.709 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [32m200 [0m2.497 ms - 51609[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m2.102 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.898 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.909 ms - 1466[0m
+[0mGET /blogedit [32m200 [0m1.791 ms - 881[0m
+[0mGET /css/fontawesome-all.css [32m200 [0m0.807 ms - 51609[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.473 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.361 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.839 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.649 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.396 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.402 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.672 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.738 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m0.875 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.787 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.891 ms - 1466[0m
+[0mGET /blogdelete [32m200 [0m1.845 ms - 886[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.491 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.637 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.368 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.972 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m2.540 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.280 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.504 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.702 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.724 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m0.824 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.785 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.787 ms - 1466[0m
+[0mGET /blogedit [36m304 [0m1.293 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.340 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m2.912 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.327 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m3.549 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m3.577 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.305 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.185 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.967 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.826 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m0.901 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.859 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.761 ms - 1466[0m
+[0mGET /blogadd [32m200 [0m3.624 ms - 736[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.390 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.488 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.271 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.417 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.477 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.282 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.037 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.812 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.768 ms - 1466[0m
+[0mGET /blogedit [36m304 [0m0.984 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.328 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.996 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m1.172 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m3.137 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.614 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.423 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.507 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.761 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.731 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m0.958 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.691 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.698 ms - 1466[0m
+[0mGET /blogdelete [36m304 [0m1.130 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.545 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.971 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.772 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m3.696 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.988 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.250 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.368 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.459 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.327 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.646 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.721 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.810 ms - 1466[0m
+[0mGET / [36m304 [0m0.998 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.513 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.482 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.617 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.388 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.001 ms - 1466[0m
+[0mGET /bloglist [36m304 [0m1.261 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.363 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.444 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.213 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.010 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.810 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.842 ms - 1466[0m
+[0mGET /blogdelete [32m200 [0m1.164 ms - 890[0m
+[0mGET /css/fontawesome-all.css [32m200 [0m0.872 ms - 51609[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.349 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.452 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.607 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.478 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.894 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.834 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.954 ms - 1466[0m
+[0mGET /blogdelete [36m304 [0m1.127 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.506 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.515 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m1.128 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.110 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m6.557 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.054 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m1.781 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.766 ms - 1466[0m
+[0mGET /blogedit [36m304 [0m1.025 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.407 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.648 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m1.473 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.612 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.346 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.051 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m1.045 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.005 ms - 1466[0m
+[0mGET /blogdelete [36m304 [0m1.853 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.460 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.562 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m0.524 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.521 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.553 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.025 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m1.020 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.039 ms - 1466[0m
+[0mGET /blogedit [36m304 [0m0.950 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.434 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.490 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m1.532 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.618 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.443 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m0.996 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.831 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.784 ms - 1466[0m
+
+> blogger@0.0.0 start /home/bitnami/blogger
+> node ./bin/www
+
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /home/bitnami/blogger/node_modules/bson/ext/index.js
+- /home/bitnami/blogger/node_modules/bson/lib/bson/index.js
+- /home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/utils.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/schema.js
+- /home/bitnami/blogger/node_modules/mongoose/lib/index.js
+- /home/bitnami/blogger/node_modules/mongoose/index.js
+- /home/bitnami/blogger/app_server/models/db.js
+- /home/bitnami/blogger/app.js
+- /home/bitnami/blogger/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:966:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:842:27)
+    at Module.require (internal/modules/cjs/loader.js:1026:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at Object.<anonymous> (/home/bitnami/blogger/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (internal/modules/cjs/loader.js:1138:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1158:10)
+    at Module.load (internal/modules/cjs/loader.js:986:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:879:14)
+    at Module.require (internal/modules/cjs/loader.js:1026:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/bitnami/blogger/node_modules/bson/ext/index.js',
+    '/home/bitnami/blogger/node_modules/bson/lib/bson/index.js',
+    '/home/bitnami/blogger/node_modules/mongodb/lib/mongodb/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/utils.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/schema.js',
+    '/home/bitnami/blogger/node_modules/mongoose/lib/index.js',
+    '/home/bitnami/blogger/node_modules/mongoose/index.js',
+    '/home/bitnami/blogger/app_server/models/db.js',
+    '/home/bitnami/blogger/app.js',
+    '/home/bitnami/blogger/bin/www'
+  ]
+}
+js-bson: Failed to load c++ bson extension, using pure JS version
+[0mGET / [32m200 [0m10.991 ms - 874[0m
+[0mGET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m2.566 ms - 1466[0m
+[0mGET /bloglist [36m304 [0m5.321 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.368 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m2.584 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.416 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.252 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.948 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.955 ms - 1466[0m
+[0mGET /blogadd [36m304 [0m2.425 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.524 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.565 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.799 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.521 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.542 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.440 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.083 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m0.981 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.862 ms - 1466[0m
+[0mGET /blogdelete [36m304 [0m1.881 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.508 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.584 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m1.220 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.642 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.492 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.367 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.497 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.530 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.379 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m2.030 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m1.023 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.033 ms - 1466[0m
+[0mGET /blogedit [36m304 [0m1.878 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.459 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.995 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.977 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m2.261 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.286 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.400 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.884 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.981 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.370 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.126 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m1.032 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.077 ms - 1466[0m
+[0mGET / [36m304 [0m1.244 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.863 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m1.008 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m0.596 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.452 ms - -[0m
+[0mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m12.787 ms - 1461[0m
+[0mGET / [36m304 [0m1.595 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.455 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.526 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m1.848 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m2.820 ms - -[0m
+[0mGET /bloglist [36m304 [0m1.179 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.504 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.574 ms - -[0m
+[0mGET /stylesheets/fontawesome-all.css [36m304 [0m0.410 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.085 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m1.123 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m1.102 ms - 1466[0m
+[0mGET /blogdelete [36m304 [0m2.253 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.479 ms - -[0m
+[0mGET /css/bootstrap.min.css [36m304 [0m0.493 ms - -[0m
+[0mGET /css/fontawesome-all.css [36m304 [0m0.586 ms - -[0m
+[0mGET /js/jquery.min.js [36m304 [0m1.195 ms - -[0m
+[0mGET /js/bootstrap.min.js [36m304 [0m0.917 ms - -[0m
+[0mGET /webfonts/fa-solid-900.woff2 [33m404 [0m1.084 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.woff [33m404 [0m2.093 ms - 1466[0m
+[0mGET /webfonts/fa-solid-900.ttf [33m404 [0m0.802 ms - 1466[0m
