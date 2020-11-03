@@ -215,3 +215,191 @@ Getting list of blogs.
 ]
 [0mGET /api/blogs [32m200 [0m3.109 ms - 496[0m
 [0mGET /favicon.ico [36m304 [0m0.564 ms - -[0m
+
+> blogger@0.0.0 start /home/bitnami/lab7/406/blogger
+> node ./bin/www "7"
+
+(node:24884) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:24884) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogs:blogs@localhost/blogs
+Mongoose disconnected
+Mongoose disconnected through app termination
+
+> blogger@0.0.0 start /home/bitnami/lab7/406/blogger
+> node ./bin/www
+
+(node:24909) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:24909) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+Mongoose connected to mongodb://blogs:blogs@localhost/blogs
+[0mGET / [36m304 [0m2.968 ms - -[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa0823ea4662b5f2db88b5d,
+    title: 'Test blog for lab8',
+    text: 'does this work',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08251a4662b5f2db88b5e,
+    title: 'edit test blog for lab8',
+    text: 'edit this blog \n- in another account',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08262a4662b5f2db88b5f,
+    title: 'delete test for lab 8',
+    text: 'delete this blog',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:09:26 PM',
+    _id: 5fa083a2cb1b565f5e4bd9cc,
+    title: 'johns blog',
+    text: 'edit this - it is edited',
+    author: 'John Wick',
+    authorEmail: 'wick@coolguy.com',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m20.890 ms - -[0m
+[0mGET /favicon.ico [32m200 [0m2.633 ms - 6567[0m
+[0mGET /favicon.ico [36m304 [0m0.583 ms - -[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa0823ea4662b5f2db88b5d,
+    title: 'Test blog for lab8',
+    text: 'does this work',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08251a4662b5f2db88b5e,
+    title: 'edit test blog for lab8',
+    text: 'edit this blog \n- in another account',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08262a4662b5f2db88b5f,
+    title: 'delete test for lab 8',
+    text: 'delete this blog',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:09:26 PM',
+    _id: 5fa083a2cb1b565f5e4bd9cc,
+    title: 'johns blog',
+    text: 'edit this - it is edited',
+    author: 'John Wick',
+    authorEmail: 'wick@coolguy.com',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m3.777 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.501 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.563 ms - -[0m
+[0mPOST /api/login [33m401 [0m24.850 ms - 33[0m
+[0mPOST /api/login [32m200 [0m14.133 ms - 257[0m
+[0mGET /favicon.ico [36m304 [0m0.675 ms - -[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa0823ea4662b5f2db88b5d,
+    title: 'Test blog for lab8',
+    text: 'does this work',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08251a4662b5f2db88b5e,
+    title: 'edit test blog for lab8',
+    text: 'edit this blog \n- in another account',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08262a4662b5f2db88b5f,
+    title: 'delete test for lab 8',
+    text: 'delete this blog',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:09:26 PM',
+    _id: 5fa083a2cb1b565f5e4bd9cc,
+    title: 'johns blog',
+    text: 'edit this - it is edited',
+    author: 'John Wick',
+    authorEmail: 'wick@coolguy.com',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m5.267 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.489 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.516 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.570 ms - -[0m
+Getting list of blogs.
+[
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa0823ea4662b5f2db88b5d,
+    title: 'Test blog for lab8',
+    text: 'does this work',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08251a4662b5f2db88b5e,
+    title: 'edit test blog for lab8',
+    text: 'edit this blog \n- in another account',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:00:26 PM',
+    _id: 5fa08262a4662b5f2db88b5f,
+    title: 'delete test for lab 8',
+    text: 'delete this blog',
+    author: 'Andrew Yang',
+    authorEmail: 'yangcandrew02@gmail.com',
+    __v: 0
+  },
+  {
+    createdOn: '11/2/2020, 5:09:26 PM',
+    _id: 5fa083a2cb1b565f5e4bd9cc,
+    title: 'johns blog',
+    text: 'edit this - it is edited',
+    author: 'John Wick',
+    authorEmail: 'wick@coolguy.com',
+    __v: 0
+  }
+]
+[0mGET /api/blogs [36m304 [0m3.510 ms - -[0m
+[0mGET /favicon.ico [36m304 [0m0.517 ms - -[0m

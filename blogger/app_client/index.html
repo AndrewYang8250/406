@@ -31,16 +31,16 @@
 				<div class="card-body">
 				    <h5 class="card-title"> {{blog.title}} </h5>
 				    <p class="card-text"> {{blog.text}} </p>
-				    <span>Date created: {{blog.createdOn}}</span>
+				    <span><i>Published by {{blog.author}} on {{blog.createdOn}}</i></span>
 				</div>
 				<div class="card-footer">
 				    <div class="col-sm">
 				       <ul class="nav justify-content-end nav-pills card-header-pills">
 				         <li class="nav-item">
-					     <a ng-show="vm.isLoggedIn()" class="nav-link" href="#/blogEdit/{{blog._id}}"> <i class="fas fa-edit"></i></a>
+					     <a ng-show="blog.authorEmail == vm.currentUser.email" class="nav-link" href="#/blogEdit/{{blog._id}}"> <i class="fas fa-edit"></i></a>
 					 </li>
 					 <li class="nav-item">
-						<a ng-show="vm.isLoggedIn()" class="nav-link" href="#/blogDelete/{{blog._id}}"> <i class="fas fa-trash-alt"></i></a>
+						<a ng-show="blog.authorEmail == vm.currentUser.email" class="nav-link" href="#/blogDelete/{{blog._id}}"> <i class="fas fa-trash-alt"></i></a>
 					</li>
 				     </ul>
 				  </div>

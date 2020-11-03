@@ -13,6 +13,8 @@ var buildBlogList = function(req, res, results){
 			title: obj.title,
 			text: obj.text,
 			createdOn: obj.createdOn,
+			author: obj.author,
+			authorEmail: obj.authorEmail,
 			_id: obj._id
 		});
 	});
@@ -25,7 +27,9 @@ module.exports.blogCreate = function (req, res) {
 	Blog.create({
 		title: req.body.title,
 		text: req.body.text,
-		createdOn: req.body.createdOn
+		createdOn: req.body.createdOn,
+		author: req.body.author,
+		authorEmail: req.body.authorEmail
 	}, function(err, blog) {
 		if(err) {
 			console.log(err);
