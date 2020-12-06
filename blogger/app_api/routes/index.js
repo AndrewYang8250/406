@@ -18,4 +18,6 @@ router.delete('/blogs/:blogid', auth, ctrlBlog.blogDeleteOne);
 router.post('/register', ctrlAuth.register);
 router.post('/login', ctrlAuth.login);
 
+router.put('/blogs/:blogid/comments', auth, ctrlBlog.addComment);
+
 module.exports = router;

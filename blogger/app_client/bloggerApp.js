@@ -44,6 +44,18 @@ app.config(function($routeProvider) {
 			controllerAs: 'vm'
 		})
 
+		.when('/comments/add/:id', {
+			templateUrl: 'pages/addComments.html',
+			controller: 'CommentsController',
+			controllerAs: 'vm'
+		})
+
+		.when('/comments/:id', {
+			templateUrl: 'pages/commentsList.html',
+			controller: 'CommentsListController',
+			controllerAs: 'vm'
+		})
+
 		.otherwise({redirectTo: '/'});
 });
 
@@ -74,6 +86,10 @@ function updateBlog($http, authentication, id, data) {
 
 function deleteBlog($http, authentication, id) {
 	return $http.delete('/api/blogs/' + id, { headers : { Authorization: 'Bearer ' + authentication.getToken() }} );
+}
+
+function addComment($http, authentication, id, data) {
+		return $http.put('/api/blogs/' + id + '/comments', data, { headers : { Authorization: 'Bearer ' + authentication.getToken() }} );
 }
 
 app.controller('HomeController', function HomeController() {
@@ -108,8 +124,9 @@ app.controller("AddController", [ '$http', '$routeParams', '$state', 'authentica
 		}
 }]);
 
-app.controller('ListController', [ '$http', 'authentication', function ListController($http, authentication) {
+app.controller('ListController', [ '$http', '$scope', '$interval', 'authentication', function ListController($http, $scope, $interval, authentication) {
 	var vm = this;
+		
 	vm.pageHeader = {
 		title: 'Blog List'
 	};
@@ -117,13 +134,27 @@ app.controller('ListController', [ '$http', 'authentication', function ListContr
 	vm.isLoggedIn = authentication.isLoggedIn();
 	vm.currentUser = authentication.currentUser();
 	
-	getBlogs($http).success(function(data) {
-		vm.blogs = data;
-		vm.message = "Blog data found!";
-	})
-	.error(function (e) {
-		vm.message = "Could not get list of blogs";
+	getBlogs($http)
+		.success(function(data) {
+			vm.blogs = data;
+			vm.message = "Blog data found!";
+		})
+		.error(function (e) {
+			vm.message = "Could not get list of blogs";
 	});
+	
+	$scope.callAtInterval = function() {
+		console.log("Interval occured");
+		getBlogById($http)
+			.success(function(data) {
+				vm.blogs = data;
+				vm.message = "Blog data found!";
+			})
+			.error(function (e) {
+				vm.message = "Could not get list of blogs";
+			});
+	}	
+	$interval( function() {$scope.callAtInterval();}, 3000, 0, true);
 }]);
 
 app.controller('EditController', [ '$http', '$routeParams', '$state', 'authentication', function EditController($http, $routeParams, $state, authentication) {
@@ -186,4 +217,80 @@ app.controller("DeleteController", [ '$http', '$routeParams', '$state', 'authent
 															vm.cancel = function() {
 															$state.go('blogList');
 															}
+}]);
+
+app.controller("CommentsController", [ '$http', '$routeParams', '$state', 'authentication', function CommentsController($http, $routeParams, $state, authentication) {
+	var vm = this;
+	vm.title = "Add Comment";
+	vm.blog = {};
+	vm.comment = {};
+	vm.id = $routeParams.id;
+	vm.commentsList = new Array();
+
+	var currentUser = authentication.currentUser();
+
+	getBlogById($http, vm.id).success(function(data) {
+		vm.blog = data;
+		vm.message = "Blog data found!";
+		vm.commentsList = data.comments;
+	})
+	
+	.error(function (e) {
+		vm.message = "Could not get blog with id " + vm.id;
+	});
+	
+	vm.submit = function() {
+		var data = {};
+		var comment = vm.comment;
+																	comment.author = currentUser.name;
+		comment.authorEmail = currentUser.email;
+		comment.text = userForm.comments.value;
+		
+		vm.commentsList.push(comment);
+		data.comments = vm.commentsList;
+	
+		addComment($http, authentication, vm.id, data)
+			.success(function(data) {
+				vm.message = "Blog comments updated";
+				$state.go('blogList');
+			})
+			.error(function(e) {
+				vm.message = "Could not add comment to blog with id " + vm.id;
+			});
+	
+	}
+	
+	vm.cancel = function() {
+		$state.go('blogList');
+	
+	}
+	
+}]);
+
+app.controller("CommentsListController", [ '$http', 'authentication', '$routeParams', '$scope', '$interval', function CommentsListController($http, authentication, $routeParams, $scope, $interval) {
+	var vm = this;
+	vm.title = "Blog Comments";
+	vm.blog = {};
+	vm.id = $routeParams.id;
+
+	vm.isLoggedIn = authentication.isLoggedIn();
+	getBlogById($http, vm.id).success(function(data) {
+		vm.blog = data;
+		vm.message = "Blog data found!";
+	})
+	.error(function (e) {
+		vm.message = "Could not get blog with id " + vm.id;
+	});
+	$scope.callAtInterval = function() {
+		console.log("Interval refresh occured");
+		getBlogById($http, vm.id).success(function(data) {
+			vm.blog = data;
+			vm.message = "Blog data found!";
+		})
+		.error(function (e) {
+			vm.message = "Could not get blog with id " + vm.id;
+		});
+	}
+	$interval( function() {$scope.callAtInterval();}, 3000, 0, true);
+
 }]);
